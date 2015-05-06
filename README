@@ -1,0 +1,28 @@
+Soccer Data Application for GrabCAD.
+Made by Mike Borys.
+
+This application uses the Play! framework, which can be found at 
+
+https://www.playframework.com/
+
+I've never actually used this framework before, I chose it based on my Java
+experience. I'm not sure I'd use it again, to be honest, but it was a strong
+learning experience that I'm glad I did.
+
+After installing the play framework, you can run the program by using
+
+>activator "run [PORT_NUMBER]"
+
+to run the server and listen on a specific port. Note that you need quotes around
+run and the port number.
+
+Alternatively, you can run the command
+
+>activator ui
+
+to enter the Typesafe Activator UI, which will open a web browser and has
+an interface to see the code, compile it, and run to localhost:9000.
+
+I can be reached at mjborys81@gmail.com if you have any questions.
+
+Thanks!

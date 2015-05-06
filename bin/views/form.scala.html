@@ -1,0 +1,15 @@
+@(message: String)
+@import helper._
+
+
+@main("") {
+
+    <form actions="@routes.Application.getDates())" method="post">
+        <input type="date" name="StartDateString" />
+        <br/>
+        <input type="date" name="EndDateString" />
+        <br/>
+        <button>Submit dates</button>
+    </form>
+
+}

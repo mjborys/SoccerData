@@ -1,0 +1,38 @@
+@import play.data.validation._
+@import utils.SoccerDB
+
+@(DB: SoccerDB, errors: List[ValidationError])
+
+
+@if(!errors.isEmpty) {
+    <p>Please fix these errors with your entry:</p>
+    <ul>
+    @for(error <- errors) {
+        <li>@error.message</li>
+    }
+    </ul>
+}else{
+    <p>From @DB.GetSoccerRequest.GetStartDisplayString to @DB.GetSoccerRequest.GetEndDisplayString</p>
+    <h1>Highest scoring:</h1>
+    <ul>
+        @for(countryName <- DB.GetHighestCountries) {
+            <li>@countryName - @DB.GetHighestPoints points</li>
+        }
+    </ul>
+    <h1>Lowest scoring:</h1>
+    <ul>
+        @for(countryName <- DB.GetLowestCountries) {
+            <li>@countryName - @DB.GetLowestPoints points</li>
+        }
+    </ul>
+}
+
+<form action="@routes.Application.PrintHighestLowest()" method="post">
+    <p>Start Date:
+    <input type="date" name="StartDateString" /></p>
+    <br/>
+    <p>End Date:
+    <input type="date" name="EndDateString" /></p>
+    <br/>
+    <button>Submit dates</button>
+</form>
