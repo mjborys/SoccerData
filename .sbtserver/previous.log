@@ -1,1 +1,349 @@
-New log file opened at Tue May 05 20:33:30 CDT 2015 by 18952@MikesPC
+New log file opened at Mon May 11 19:22:32 CDT 2015 by 22176@MikesPC
+jvm 22176@MikesPC
+jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=24.79-b02
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.7
+jvm arguments: [-Xms256m, -Xmx1024m, -XX:PermSize=64m, -XX:MaxPermSize=256m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=C:\Users\mjbor_000\workspace\Soccer2\SoccerScores
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\project
+[Loading] Found non-root projects 
+[Loading] Done in C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\project, returning: (soccerscores-build)
+Loading project definition from C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@2b998b0, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory C:\Users\mjbor_000\workspace\Soccer2\SoccerScores
+[Loading] Found root project root w/ remaining 
+deducing auto plugins based on known facts Set(Atom(play.PlayJava), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.SbtEchoPlay),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(com.typesafe.sbt.SbtEchoPlay),Set(Atom(com.typesafe.sbt.SbtEcho))), Clause(Atom(com.typesafe.sbt.SbtEchoPlay),Set(Atom(play.Play))), Clause(Atom(com.typesafe.sbt.SbtEchoPlay),Set(Atom(play.sbt.forkrun.PlayForkRun))), Clause(Atom(com.typesafe.sbt.SbtEcho),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.SbtEcho),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(play.Play))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(play.Play),Set(Atom(com.typesafe.sbt.webdriver.SbtWebDriver))), Clause(Atom(play.Play),Set(Atom(play.twirl.sbt.SbtTwirl))), Clause(Atom(play.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(play.PlayJava),Set(Atom(play.Play))), Clause(Atom(play.PlayScala),Set(Atom(play.Play))), Clause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.webdriver.SbtWebDriver),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.less.SbtLess),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.jshint.SbtJSHint),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.rjs.SbtRjs),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.digest.SbtDigest),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.mocha.SbtMocha),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(And(Set(Atom(sbt.plugins.BackgroundRunPlugin), Atom(com.typesafe.sbt.SbtEcho), Atom(play.Play), Atom(play.sbt.forkrun.PlayForkRun))),Set(Atom(com.typesafe.sbt.SbtEchoPlay))), Clause(And(Set(Atom(sbt.plugins.JvmPlugin), Atom(sbt.plugins.BackgroundRunPlugin))),Set(Atom(com.typesafe.sbt.SbtEcho))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(And(Set(Atom(sbt.plugins.BackgroundRunPlugin), Atom(play.Play), Atom(sbt.plugins.SerializersPlugin))),Set(Atom(play.sbt.forkrun.PlayForkRun))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.webdriver.SbtWebDriver))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.less.SbtLess))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jshint.SbtJSHint))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.rjs.SbtRjs))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.digest.SbtDigest))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.mocha.SbtMocha)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,play.PlayJava,sbt.plugins.InteractionServicePlugin,sbt.plugins.SendEventServicePlugin,play.Play,sbt.plugins.SerializersPlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,com.typesafe.sbt.jse.SbtJsTask,play.twirl.sbt.SbtTwirl,com.typesafe.sbt.webdriver.SbtWebDriver,com.typesafe.sbt.jshint.SbtJSHint,sbt.plugins.JUnitXmlReportPlugin,com.typesafe.sbt.mocha.SbtMocha,com.typesafe.sbt.less.SbtLess,com.typesafe.sbt.web.SbtWeb,com.typesafe.sbt.rjs.SbtRjs,com.typesafe.sbt.jse.SbtJsEngine,com.typesafe.sbt.coffeescript.SbtCoffeeScript,sbt.plugins.BackgroundRunPlugin,com.typesafe.sbt.digest.SbtDigest,play.sbt.forkrun.PlayForkRun,com.typesafe.sbt.SbtEcho,com.typesafe.sbt.SbtEchoPlay)
+sorting: ns: List(sbt.plugins.CorePlugin, play.PlayJava, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, play.Play, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.digest.SbtDigest, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.SbtEcho, com.typesafe.sbt.SbtEchoPlay)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb) not found List(play.PlayJava, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, play.Play, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.digest.SbtDigest, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.SbtEcho, com.typesafe.sbt.SbtEchoPlay)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest) not found List(play.PlayJava, play.Play, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.SbtEcho, com.typesafe.sbt.SbtEchoPlay)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask) not found List(play.PlayJava, play.Play, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.SbtEcho, com.typesafe.sbt.SbtEchoPlay)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin) not found List(play.PlayJava, play.Play, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.SbtEcho, com.typesafe.sbt.SbtEchoPlay)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, play.Play, com.typesafe.sbt.SbtEcho) not found List(play.PlayJava, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.SbtEchoPlay)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, play.Play, com.typesafe.sbt.SbtEcho, play.PlayJava, play.sbt.forkrun.PlayForkRun) not found List(com.typesafe.sbt.SbtEchoPlay)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, play.Play, com.typesafe.sbt.SbtEcho, play.PlayJava, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.SbtEchoPlay) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, play.Play, com.typesafe.sbt.SbtEcho, play.PlayJava, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.SbtEchoPlay)
+[Loading] Done in C:\Users\mjbor_000\workspace\Soccer2\SoccerScores, returning: (root)
+Set current project to SoccerScores (in build file:/C:/Users/mjbor_000/workspace/Soccer2/SoccerScores/)
+Reapplying settings...
+Set current project to SoccerScores (in build file:/C:/Users/mjbor_000/workspace/Soccer2/SoccerScores/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@64b3dbe, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java, C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\controllers\Application.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java, C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\controllers\Application.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java, C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\controllers\Application.java)
+
+Read from stdout: Compiling 2 Java sources to C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\target\scala-2.11\classes...
+Compiling 2 Java sources to C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\target\scala-2.11\classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@2fd9d7ac directly...
+Read from stdout: C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java:102: method newBufferedReader in class java.nio.file.Files cannot be applied to given types;
+Read from stdout: required: java.nio.file.Path,java.nio.charset.Charset
+Read from stdout: found: java.nio.file.Path
+Read from stdout: reason: actual and formal argument lists differ in length
+C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java:102: method newBufferedReader in class java.nio.file.Files cannot be applied to given types;
+  required: java.nio.file.Path,java.nio.charset.Charset
+  found: java.nio.file.Path
+  reason: actual and formal argument lists differ in length
+Read from stdout: Files.newBufferedReader
+Files.newBufferedReader
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 3 s, completed May 11, 2015 7:22:47 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/mjbor_000/workspace/Soccer2/SoccerScores/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@582fdb93, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java, C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\controllers\Application.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java, C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\controllers\Application.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java, C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\controllers\Application.java)
+
+Read from stdout: Compiling 2 Java sources to C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\target\scala-2.11\classes...
+Compiling 2 Java sources to C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\target\scala-2.11\classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@546925a2 directly...
+Read from stdout: C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java:102: method newBufferedReader in class java.nio.file.Files cannot be applied to given types;
+Read from stdout: required: java.nio.file.Path,java.nio.charset.Charset
+Read from stdout: found: java.nio.file.Path
+Read from stdout: reason: actual and formal argument lists differ in length
+C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java:102: method newBufferedReader in class java.nio.file.Files cannot be applied to given types;
+  required: java.nio.file.Path,java.nio.charset.Charset
+  found: java.nio.file.Path
+  reason: actual and formal argument lists differ in length
+Read from stdout: Files.newBufferedReader
+Files.newBufferedReader
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 2 s, completed May 11, 2015 7:22:49 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/mjbor_000/workspace/Soccer2/SoccerScores/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@4b3961b6, check cycles: false
+Total time: 0 s, completed May 11, 2015 7:22:49 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/mjbor_000/workspace/Soccer2/SoccerScores/}root/echo:echoTraceSupported
+Evaluating tasks: echo:echoTraceSupported
+Running task... Cancel: sbt.server.ServerTaskCancellation@5e546b84, check cycles: false
+Total time: 0 s, completed May 11, 2015 7:22:49 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/mjbor_000/workspace/Soccer2/SoccerScores/}root/echo:echoPlayVersionReport
+Evaluating tasks: echo:echoPlayVersionReport
+Running task... Cancel: sbt.server.ServerTaskCancellation@63262e47, check cycles: false
+Total time: 0 s, completed May 11, 2015 7:22:50 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/mjbor_000/workspace/Soccer2/SoccerScores/}root/echo:echoAkkaVersionReport
+Evaluating tasks: echo:echoAkkaVersionReport
+Running task... Cancel: sbt.server.ServerTaskCancellation@130ac07f, check cycles: false
+Total time: 0 s, completed May 11, 2015 7:22:50 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/mjbor_000/workspace/Soccer2/SoccerScores/}root/echo:echoTracePlayVersion
+Evaluating tasks: echo:echoTracePlayVersion
+Running task... Cancel: sbt.server.ServerTaskCancellation@35333cb6, check cycles: false
+Total time: 0 s, completed May 11, 2015 7:22:50 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/mjbor_000/workspace/Soccer2/SoccerScores/}root/echo:echoAkkaVersionReport
+Evaluating tasks: echo:echoAkkaVersionReport
+Running task... Cancel: sbt.server.ServerTaskCancellation@22caa5fa, check cycles: false
+Total time: 0 s, completed May 11, 2015 7:22:50 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/mjbor_000/workspace/Soccer2/SoccerScores/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@7bc874c0, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java, C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\controllers\Application.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java, C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\controllers\Application.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java, C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\controllers\Application.java)
+
+Read from stdout: Compiling 2 Java sources to C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\target\scala-2.11\classes...
+Compiling 2 Java sources to C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\target\scala-2.11\classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@2064732c directly...
+Read from stdout: C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java:102: method newBufferedReader in class java.nio.file.Files cannot be applied to given types;
+Read from stdout: required: java.nio.file.Path,java.nio.charset.Charset
+Read from stdout: found: java.nio.file.Path
+Read from stdout: reason: actual and formal argument lists differ in length
+C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java:102: method newBufferedReader in class java.nio.file.Files cannot be applied to given types;
+  required: java.nio.file.Path,java.nio.charset.Charset
+  found: java.nio.file.Path
+  reason: actual and formal argument lists differ in length
+Read from stdout: Files.newBufferedReader
+Files.newBufferedReader
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed May 11, 2015 7:22:51 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/mjbor_000/workspace/Soccer2/SoccerScores/}root/echo:echoTracePlayVersion
+Evaluating tasks: echo:echoTracePlayVersion
+Running task... Cancel: sbt.server.ServerTaskCancellation@494909ea, check cycles: false
+Total time: 0 s, completed May 11, 2015 7:22:51 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/mjbor_000/workspace/Soccer2/SoccerScores/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@6f12d042, check cycles: false
+Total time: 0 s, completed May 11, 2015 7:22:51 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/mjbor_000/workspace/Soccer2/SoccerScores/}root/echo:echoTraceSupported
+Evaluating tasks: echo:echoTraceSupported
+Running task... Cancel: sbt.server.ServerTaskCancellation@7d68502e, check cycles: false
+Total time: 0 s, completed May 11, 2015 7:22:52 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/mjbor_000/workspace/Soccer2/SoccerScores/}root/echo:echoPlayVersionReport
+Evaluating tasks: echo:echoPlayVersionReport
+Running task... Cancel: sbt.server.ServerTaskCancellation@312a61c4, check cycles: false
+Total time: 0 s, completed May 11, 2015 7:22:52 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@5acc697, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java, C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\controllers\Application.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java, C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\controllers\Application.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java, C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\controllers\Application.java)
+
+Read from stdout: Compiling 2 Java sources to C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\target\scala-2.11\classes...
+Compiling 2 Java sources to C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\target\scala-2.11\classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@29a92ca1 directly...
+Read from stdout: C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java:102: cannot find symbol
+Read from stdout: symbol:   variable StandardCharsets
+Read from stdout: location: class utils.SoccerDB
+C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java:102: cannot find symbol
+  symbol:   variable StandardCharsets
+  location: class utils.SoccerDB
+Read from stdout: StandardCharsets
+StandardCharsets
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed May 11, 2015 7:25:01 PM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/mjbor_000/workspace/Soccer2/SoccerScores/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@70404aeb, check cycles: false
+Total time: 0 s, completed May 11, 2015 7:26:00 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/mjbor_000/workspace/Soccer2/SoccerScores/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@31267d09, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java, C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\controllers\Application.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java, C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\controllers\Application.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\utils\SoccerDB.java, C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\app\controllers\Application.java)
+
+Read from stdout: Compiling 2 Java sources to C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\target\scala-2.11\classes...
+Compiling 2 Java sources to C:\Users\mjbor_000\workspace\Soccer2\SoccerScores\target\scala-2.11\classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@4f93d116 directly...
+Java compilation took 0.496775193 s
+Java analysis took 0.052390347 s
+Java compile + analysis took 0.575064405 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 2 s, completed May 11, 2015 7:26:01 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/mjbor_000/workspace/Soccer2/SoccerScores/}root/echo:echoTraceSupported
+Evaluating tasks: echo:echoTraceSupported
+Running task... Cancel: sbt.server.ServerTaskCancellation@1ad98208, check cycles: false
+Total time: 0 s, completed May 11, 2015 7:26:01 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/mjbor_000/workspace/Soccer2/SoccerScores/}root/echo:echoPlayVersionReport
+Evaluating tasks: echo:echoPlayVersionReport
+Running task... Cancel: sbt.server.ServerTaskCancellation@704a3908, check cycles: false
+Total time: 0 s, completed May 11, 2015 7:26:01 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/mjbor_000/workspace/Soccer2/SoccerScores/}root/echo:echoAkkaVersionReport
+Evaluating tasks: echo:echoAkkaVersionReport
+Running task... Cancel: sbt.server.ServerTaskCancellation@bc4998b, check cycles: false
+Total time: 0 s, completed May 11, 2015 7:26:02 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/mjbor_000/workspace/Soccer2/SoccerScores/}root/echo:echoTracePlayVersion
+Evaluating tasks: echo:echoTracePlayVersion
+Running task... Cancel: sbt.server.ServerTaskCancellation@7262e5f6, check cycles: false
+Total time: 0 s, completed May 11, 2015 7:26:02 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 22176@MikesPC logs at Mon May 11 19:26:02 CDT 2015, goodbye.

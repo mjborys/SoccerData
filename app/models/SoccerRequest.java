@@ -11,12 +11,7 @@ package models;
 
 import java.text.*;
 import java.util.*;
-
 import play.data.validation.ValidationError;
-
-import play.data.validation.Constraints.*;
-import play.db.ebean.Model;
-
 
 // Defines a request containing optional start/end dates to define a range
 public class SoccerRequest {
@@ -39,14 +34,14 @@ public class SoccerRequest {
 	}
 	
 	// checks if input date is within the range given
-	public boolean CheckDateRange(String inputDate) {
+	public boolean checkDateRange(String inputDate) {
 	    Calendar cal = resolveDate(inputDate);
 	    return checkValidRange(cal, startDate, endDate);
 	}
 	
 	// Validates that dates are between max and min dates, and that start date is not before end date.
 	// Returns a list of ValidationErrors to be displayed on the form.
-	public List<ValidationError> Validate() {
+	public List<ValidationError> validate() {
 	    List<ValidationError> errors = new ArrayList<ValidationError>();
 	    Calendar minDate = resolveDate(DEFAULT_START_DATE);
 	    Calendar maxDate = resolveDate(DEFAULT_END_DATE);
@@ -67,13 +62,13 @@ public class SoccerRequest {
 	}
 	
 	// Format start date
-	public String GetStartDisplayString() {
+	public String getStartDisplayString() {
         return getFormattedDate(startDate);
 	}
 	
 	
 	// Format end date
-	public String GetEndDisplayString() {
+	public String getEndDisplayString() {
 	    return getFormattedDate(endDate);
 	}
 	

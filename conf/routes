@@ -3,13 +3,9 @@
 # ~~~~
 
 # Home page
-GET     /                           controllers.Application.PrintHighestLowest()
+GET     /                           controllers.Application.printHighestLowest()
 
-#POST	/					        controllers.Application.getDates()
-
-POST	/					        controllers.Application.PrintHighestLowest()
-
-#GET     /index                      controllers.Application.index()
+POST	/					        controllers.Application.printHighestLowest()
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

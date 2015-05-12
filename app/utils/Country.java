@@ -13,15 +13,15 @@ public class Country {
     }
     
     //add increment to current score
-    public void UpdateScore(Integer inc) {
+    public void updateScore(Integer inc) {
         this.score = this.score + inc;
     }
     
-    public Integer GetScore() {
+    public Integer getScore() {
         return this.score;
     }
     
-    public String GetName() {
+    public String getName() {
         return this.name;
     }
 }
